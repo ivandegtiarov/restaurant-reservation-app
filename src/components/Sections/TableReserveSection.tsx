@@ -4,12 +4,12 @@ import TableReservationImg from "../../assets/img/TableReservation.png";
 const TableReserveSection = () => {
   return (
     <div className="feature-dish-container flex w-[100%] m-auto mt-[100px] justify-between items-center">
-      <div className="dish-img-section">
+      <div className="dish-img-section select-none">
         <img className="w-[882px]" src={TableReservationImg} alt="" />
       </div>
       <div className="text-buttons-section mr-[240px] mt-[30px]">
         <div className="dish-description">
-          <h2 className="dish-name text-[80px] font-bold w-[453px] leading-[88px] mt-[20px] font-[Tinos]">
+          <h2 className="dish-name text-[80px] font-bold w-[453px] leading-[88px] mt-[20px] font-[Tinos] ">
             Let's reserve{" "}
             <span className="text-orange-400 font-[Tinos]">a table</span>
           </h2>
