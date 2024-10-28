@@ -11,7 +11,7 @@ const PopularMenuSection = () => {
     <div className="mt-[120px]">
       <div className="title">
         <h2 className="text-[80px] font-bold leading-[88px] mt-[20px] font-[Tinos] text-center">
-          Our popular menu
+          Menu
         </h2>
       </div>
       <PopularMenuCategories />

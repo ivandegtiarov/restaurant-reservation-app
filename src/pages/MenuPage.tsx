@@ -1,8 +1,11 @@
-import React from 'react'
+
+import PopularMenuSection from '../components/Menu/PopularMenuSection'
 
 const MenuPage = () => {
   return (
-    <div>MenuPage</div>
+    <div>
+      <PopularMenuSection />
+    </div>
   )
 }
 

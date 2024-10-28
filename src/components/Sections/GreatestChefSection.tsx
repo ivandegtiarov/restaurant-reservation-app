@@ -4,10 +4,16 @@ import image2 from "../../assets/img/chefs/image2.png";
 import image3 from "../../assets/img/chefs/image3.png";
 import { useState } from "react";
 
-const GreatestChefSection = () => {
-  const [num, setNum] = useState(3);
+type Chef = {
+  name: string;
+  image: string;
+  description: string;
+};
 
-  const cards = [
+const GreatestChefSection = () => {
+  const [num, setNum] = useState<number>(3);
+
+  const cards: Chef[] = [
     {
       name: "Betran Komar",
       image: image1,
