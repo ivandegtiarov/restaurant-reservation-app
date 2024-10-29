@@ -1,4 +1,5 @@
 import PopularMenuSection from "../components/Menu/PopularMenuSection";
+import CustomersSaySection from "../components/Sections/CustomersSaySection";
 import FeatureDishSection from "../components/Sections/FeatureDishSection";
 import GreatestChefSection from "../components/Sections/GreatestChefSection";
 import ScheduleSection from "../components/Sections/ScheduleSection";
@@ -13,6 +14,7 @@ const HomePage = () => {
       <PopularMenuSection />
       <TableReserveSection />
       <GreatestChefSection />
+      <CustomersSaySection />
       <ScheduleSection />
     </>
   );
